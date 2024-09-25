@@ -1,0 +1,8 @@
+name: Contexts
+on: oush
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "${{ github.actor }}" # githubコンテキスト参照
+
