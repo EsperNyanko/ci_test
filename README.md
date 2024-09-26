@@ -19,3 +19,17 @@ Sensitive information is handled with Secrets. The key features are as follows:
 
 Secrets also require prior registration. From the repository page, select Settings -> Secrets and variables -> Actions. Then, open the Secrets tab and click New repository secret.
 
+# Functions
+The following functions are available for use:
+
+1. String comparison: contains(), startsWith(), endsWith()
+2. String generation: format(), join()
+3. JSON manipulation: toJSON(), fromJSON()
+4. Hash generation: hashFiles()
+
+
+
+
+
+
+
