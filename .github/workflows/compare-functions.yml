@@ -1,0 +1,11 @@
+name: Compare Functions
+on: push
+jobs:
+  compare:
+    runs-on: Ubuntu-latest
+    steps:
+      - run: printenv | grep '_FUNC'
+        env:
+          CONTAINS_FUNC: ${{ contains('GoodMornig', 'ood') }}
+          STARTS_WITH_FUNC: ${{ startsWith('GoodMornig', 'Go') }}
+          ENDS_WITH_FUNC: ${{ endsWith('GoodMorning', 'ng') }}
