@@ -1,8 +1,12 @@
-# はじめに
-GitHubでCI（継続的インテグレーション）のHello World的なものを試すには、GitHub Actionsを使うのが簡単です。GitHub ActionsはGitHubが提供するCI/CDサービスで、リポジトリにイベントが発生したときに自動的にテストやビルド、デプロイなどを行えます。
+# Introduction
+To try a Hello World-style CI (Continuous Integration) example on GitHub, using GitHub Actions is the simplest option. GitHub Actions is a CI/CD service provided by GitHub that allows you to automatically run tests, builds, deployments, and more whenever an event occurs in your repository.
 
-# コーディングルール
-1. コンテキストはシェルコマンドへハードコードせず、環境変数を経由して渡す
-2. 環境変数は全てダブルクォーテーションで囲む
+# Coding Rules
+1. Do not hard-code context into shell commands; instead, pass it through environment variables.
+2. Enclose all environment variables in double quotes.
+
+
+
+
 
 

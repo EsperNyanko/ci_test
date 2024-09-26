@@ -1,6 +1,5 @@
 name: CI Hello World
 
-# ワークフローをトリガーするイベント
 on:
   push:
     branches:
